@@ -19,7 +19,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt pyinstaller
       - name: Run core tests
-        run: python -m unittest discover -s tests -v
+       run: python -m unittest discover -s tests -t . -v
       - name: Build standalone EXE
         run: pyinstaller --clean --noconfirm FileShuffleRenamer.spec
       - uses: actions/upload-artifact@v4
