@@ -7,7 +7,7 @@ from PySide6.QtWidgets import (
     QLabel, QLineEdit, QPushButton, QFileDialog, QSpinBox, QTableWidget,
     QTableWidgetItem, QMessageBox, QStatusBar, QHeaderView, QAbstractItemView
 )
-from renamer_core import build_plan, execute_plan, undo_last, RenameError
+from SRC.renamer_core import build_plan, execute_plan, undo_last, RenameError
 
 
 class MainWindow(QMainWindow):

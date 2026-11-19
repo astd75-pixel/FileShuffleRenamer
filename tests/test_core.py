@@ -1,7 +1,7 @@
 import tempfile
 import unittest
 from pathlib import Path
-from renamer_core import build_plan, execute_plan, undo_last, RenameError
+from SRC.renamer_core import build_plan, execute_plan, undo_last, RenameError
 
 
 class CoreTests(unittest.TestCase):
